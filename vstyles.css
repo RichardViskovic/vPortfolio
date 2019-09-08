@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#big-image {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: salmon;
+}
+#main-text {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-color: dodgerblue;
+}
+.floating {
+    display: flex;
+    background-color: lightslategray;
+    /* text-align: center; */
+    justify-content: center;
+}
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40dp;
+    text-align: center;
+}
